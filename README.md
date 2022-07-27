@@ -1,4 +1,4 @@
-# Global Tech
+# Globe Tech
 
 # Used Technologies
 * Tailwind CSS

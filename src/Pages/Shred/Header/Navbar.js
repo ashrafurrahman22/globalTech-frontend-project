@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import globalLogo from '../../../assets/globetech logo.jpg'
+import globalLogo from '../../../assets/globetech_logo-removebg-preview.png'
 
 const Navbar = () => {
     return (

@@ -45,8 +45,8 @@ const Login = () => {
 
 
     return (
-        <div  className='flex h-screen justify-center items-center'>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className='flex h-screen justify-center items-center'>
+        <div className="card lg:w-96 md:w-96 bg-base-100 shadow-xl">
             <div className="card-body">
                 <h2 style={{fontFamily:"aleo"}} className="text-center text-black text-2xl font-bold">Login</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
