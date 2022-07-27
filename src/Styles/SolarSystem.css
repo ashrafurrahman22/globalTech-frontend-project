@@ -61,7 +61,7 @@
 .planet2::before {
     width: 30px;
     height: 30px;
-    bottom: 43px;
+    bottom: 46px;
     right: 28px;
     background: #97979797;
 }
@@ -71,5 +71,21 @@
     height: 20px;
     top: 48px;
     right: 36px;
+    background: wheat;
+}
+
+.planet3::before {
+    width: 20px;
+    height: 20px;
+    bottom: -12px;
+    left: 218px;
+    background: #97979797;
+}
+
+.planet3::after {
+    width: 35px;
+    height: 35px;
+    top: 16px;
+    left: 96px;
     background: wheat;
 }

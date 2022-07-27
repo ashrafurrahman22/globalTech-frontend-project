@@ -2,24 +2,35 @@ import React from 'react';
 import Heading from '../../Components/Heading/Heading';
 import Plane from '../../Components/Plane/Plane';
 import SolarSystem from '../../Components/SolarSystem/SolarSystem';
+import '../../Styles/Home.css'
 
 const Home = () => {
     return (
         <div className='min-h-screen mx-20 py-8'>
 
-<SolarSystem></SolarSystem>
-            {/* <div className="grid grid-cols-2">
+            <div className="lg:grid grid-cols-2">
 
-            <div className='flex flex-col gap-8'>
-            <Plane></Plane>
+            <div className='flex flex-col lg:relative gap-8'>
+                
+                <div className="flex justify-between">
+
+                <div id='firstPlane'>
+                <Plane></Plane>
+                </div>
+                <div id='secondPlane'>
+                <Plane></Plane>
+                </div>
+                </div>
+                
+                
             <Heading></Heading>
             </div>
 
-            <div>
+            <div className='lg:relative'>
                 <SolarSystem></SolarSystem>
             </div>
 
-            </div> */}
+            </div>
 
         </div>
     );

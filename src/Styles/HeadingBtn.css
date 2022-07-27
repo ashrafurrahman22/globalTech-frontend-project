@@ -10,3 +10,12 @@
     letter-spacing: 1px;
     background-color: rgba(0,0, 0, 0.3);
 }
+
+#supportBtn:hover {
+    background-color: #22A55A;
+    color: white;
+}
+
+#missionBtn:hover {
+    background-color: #22A55A;
+}
