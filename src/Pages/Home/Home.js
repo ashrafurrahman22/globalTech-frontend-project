@@ -2,6 +2,7 @@ import React from 'react';
 import Heading from '../../Components/Heading/Heading';
 import Plane from '../../Components/Plane/Plane';
 import SolarSystem from '../../Components/SolarSystem/SolarSystem';
+import Summary from '../../Components/Summary/Summary';
 import '../../Styles/Home.css'
 
 const Home = () => {
@@ -27,6 +28,10 @@ const Home = () => {
                 <SolarSystem></SolarSystem>
             </div>
 
+            </div>
+
+            <div>
+                <Summary></Summary>
             </div>
 
         </div>

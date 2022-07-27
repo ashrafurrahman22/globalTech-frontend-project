@@ -1,5 +1,5 @@
 #homePlane:hover {
-    animation: homePlane 8s ease-in-out;
+    animation: homePlane 8s ease-out;
     position: relative;
 }
 

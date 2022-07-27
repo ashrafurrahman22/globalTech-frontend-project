@@ -1,6 +1,7 @@
 import React from 'react';
 import plane from '../../assets/Vector.png';
 import '../../Styles/Plane.css'
+import '../../Styles/Home.css'
 
 const Plane = () => {
     return (
