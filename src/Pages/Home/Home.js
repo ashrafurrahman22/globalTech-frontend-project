@@ -12,18 +12,15 @@ const Home = () => {
 
             <div className='flex flex-col lg:relative gap-8'>
                 
-                <div className="flex justify-between">
-
-                <div id='firstPlane'>
+            <div id='homePlane' className='relative'>
                 <Plane></Plane>
-                </div>
-                <div id='secondPlane'>
-                <Plane></Plane>
-                </div>
-                </div>
+            </div>
                 
-                
+             <div>
+                    
             <Heading></Heading>
+            
+             </div>
             </div>
 
             <div className='lg:relative'>

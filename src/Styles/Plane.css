@@ -1,12 +1,14 @@
 #myPlane {
     animation: plane 8s linear;
+    position: absolute;
 }
 
 @keyframes plane {
+
     0% {
-        transform: translatex(0px);
+        left: 0%;
     }
     100%{
-        transform: translatex(2000px);
+       left: 82%;
     }
 }

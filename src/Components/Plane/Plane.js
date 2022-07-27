@@ -7,8 +7,6 @@ const Plane = () => {
         <div>
 
             <div className="flex justify-between">
-
-
                 
                 {/* main div */}
             <div className='flex items-center'>
@@ -19,7 +17,7 @@ const Plane = () => {
                 <div style={{backgroundColor: "#28ACE2", height:"0.5px" }} className='my-1 w-14'></div>
             </div>
                 </div>
-            <img src={plane} alt="" />
+            <img className='lg:w-full w-2/4' src={plane} alt="" />
             </div>
            </div>
 

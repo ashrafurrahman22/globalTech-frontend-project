@@ -1,0 +1,14 @@
+#homePlane:hover {
+    animation: homePlane 8s ease-in-out;
+    position: relative;
+}
+
+@keyframes homePlane {
+
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 70%;
+    }
+}
