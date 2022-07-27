@@ -1,0 +1,12 @@
+#myPlane {
+    animation: plane 8s linear;
+}
+
+@keyframes plane {
+    0% {
+        transform: translatex(0px);
+    }
+    100%{
+        transform: translatex(2000px);
+    }
+}

@@ -24,15 +24,11 @@ const Navbar = () => {
   </div>
   <div class="navbar-end hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
-    <li><Link to="/">Home</Link></li>
-      <li><Link to="/services">Services</Link></li>
-      <li><Link to="/login">Login</Link></li>
+    <li><Link to="/" className='hover:bg-blue-600'>Home</Link></li>
+      <li><Link to="/services" className='hover:bg-blue-600'>Services</Link></li>
+      <li><Link to="/login" className='hover:bg-blue-600'>Login</Link></li>
     </ul>
   </div>
-  {/* <div class="navbar-end lg:flex hidden">
-  <button id='btn' className= 'btn font-medium text-white px-6 uppercase'>
-                Request Quote</button>
-  </div> */}
 </div>
 
         </div>

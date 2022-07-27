@@ -1,12 +1,13 @@
 import React from 'react';
 import Cards from '../../Components/Cards/Cards';
 import Plane from '../../Components/Plane/Plane';
+import '../../Styles/Plane.css'
 
 const Services = () => {
     return (
         <div className='min-h-screen my-10'>
 
-            <div className='mx-20'>
+            <div id='myPlane' className='mx-20'>
                 <Plane></Plane>
             </div>
 
