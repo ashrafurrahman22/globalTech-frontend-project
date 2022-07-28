@@ -6,7 +6,7 @@ const Footer = () => {
         <footer style={{backgroundColor:"#000655", fontFamily:"inter", letterSpacing:"2px", color:"white"}} class="footer px-12 py-10 text-base-content">
   <div>
     <img className='lg:w-48 w-28' src={logo} alt="" />
-    <p>Global Tech Industries Ltd. <br/> Providing reliable tech since 1992</p>
+    <p>Globe Tech Industries Ltd. <br/> Providing reliable tech since 1992</p>
 
     <div>
     <span class="footer-title">Social</span> 
