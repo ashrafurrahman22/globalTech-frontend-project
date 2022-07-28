@@ -11,20 +11,18 @@ const Home = () => {
 
             <div className="lg:grid grid-cols-2">
 
-            <div className='flex flex-col lg:relative gap-8'>
+            <div className='flex flex-col lg:relative relative gap-8'>
                 
-            <div id='homePlane' className='relative'>
+            <div id='homePlane' className='lg:relative'>
                 <Plane></Plane>
             </div>
-                
              <div>
-                    
             <Heading></Heading>
             
              </div>
             </div>
 
-            <div className='lg:relative'>
+            <div className='lg:relative relative py-36'>
                 <SolarSystem></SolarSystem>
             </div>
 
