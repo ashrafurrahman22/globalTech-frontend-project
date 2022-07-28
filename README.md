@@ -8,5 +8,6 @@
 * React.js
 * React Router
 * React Hook Form
+* React CountUP
 * Firebase Authentication with google & github
-* responsive Design
+* responsive Design for mobile and Computer
